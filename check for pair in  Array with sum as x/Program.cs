@@ -22,7 +22,6 @@ namespace check_for_pair_in__Array_with_sum_as_x
                 if (arr[i] + arr[j] < sum) i++;
                 else j--;
             }
-
             return false;
         }
 
